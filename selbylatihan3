@@ -1,0 +1,11 @@
+public class selbylatihan3 {
+    public static void main(String args[]){
+        String nama = "Selbyy";
+        Integer angka = 20;
+        Boolen status = false;
+
+        System.out.println("Tipe data: " +nama.getClass().getSimpleName());
+        System.out.println("Tipe data Integer / int: " +angka.getClass().getSimpleName());
+        System.out.println("Tipe data bool: " +status.getClass().getSimpleName());
+    }
+}
